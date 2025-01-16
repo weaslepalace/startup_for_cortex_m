@@ -1,0 +1,9 @@
+name = "startup_for_cortex_m"
+description = "Startup code for Cortex-M based MCU"
+version = "0.1.0-dev"
+
+authors = ["Christian Stewart"]
+maintainers = ["Christian Stewart <christianstewart.v1.0@gmail.com>"]
+maintainers-logins = ["weaslepalace"]
+[[depends-on]]
+gnat_arm_elf = "^12.2.1"
